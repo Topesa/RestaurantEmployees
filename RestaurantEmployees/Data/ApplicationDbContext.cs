@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RestaurantEmployees.Data
 {
@@ -12,5 +9,7 @@ namespace RestaurantEmployees.Data
             : base(options)
         {
         }
+
+        public DbSet<RestaurantEmployees.Models.Employee> Employee { get; set; }
     }
 }

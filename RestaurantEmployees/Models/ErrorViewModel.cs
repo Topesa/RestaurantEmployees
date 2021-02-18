@@ -1,5 +1,3 @@
-using System;
-
 namespace RestaurantEmployees.Models
 {
     public class ErrorViewModel
